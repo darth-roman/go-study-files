@@ -17,14 +17,13 @@ package main
 // * 2nd arg : File path to process
 //  */
 
-
 // func main(){
 // 	arguments := os.Args
 // 	if len(arguments) < 2{
 // 		fmt.Println("usage: regex column <file1> [<file2> [<file2> [... <fileN>]]]")
 // 		os.Exit(1)
 // 	}
-// 	// strconv.Atoi() is for parsing the integer from the command line argument 
+// 	// strconv.Atoi() is for parsing the integer from the command line argument
 // 	// of the start line
 // 	temp, err := strconv.Atoi(arguments[1])
 
@@ -71,16 +70,15 @@ package main
 
 // }
 
-// Notes
-/*
-	-Pattern matching is a technique for searching a string
-	for some set of characters based on specific search pattern
-	that is based on RegEx and grammars
-	
-	- Can be used to replace and delete and manupilate the extracted 
-	string/data
+// // Notes
+// // /*
+// // 	-Pattern matching is a technique for searching a string
+// // 	for some set of characters based on specific search pattern
+// // 	that is based on RegEx and grammars
 
-	-Go package that is responsible for RegEx is "regexp"
+// // 	- Can be used to replace and delete and manupilate the extracted
+// // 	string/data
 
+// // 	-Go package that is responsible for RegEx is "regexp"
 
-*/
+// // */
