@@ -72,6 +72,8 @@ func main(){
 	addNote(root, 1)
 	addNote(root, -1)
 	traverse(root)
+	addNote(root, 1)
+	traverse(root)
 	fmt.Println(size(root))
 
 	if lookUp(root, -1) {
